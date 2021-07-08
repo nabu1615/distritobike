@@ -292,6 +292,9 @@ a img {
 .crono__cta {
   max-width: 300px;
   margin: 0 auto;
+}
+
+.crono__cta img {
   width: 100%;
 }
 
