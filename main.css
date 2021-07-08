@@ -166,8 +166,8 @@ footer .logo {
   font-size: 20px;
 }
 
-a,
-a:visited {
+.tabs a,
+.tabs a:visited {
   background-color: transparent;
   color: #0067b8;
   text-decoration: none;
