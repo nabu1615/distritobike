@@ -289,11 +289,6 @@ a img {
   margin-top: 30px;
 }
 
-.logo__crono {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 .crono__cta {
   max-width: 300px;
   margin: 0 auto;
@@ -305,15 +300,28 @@ a img {
 
 .logos__patro {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  padding: 0;
 }
 
 .logos__patro li {
   list-style: none;
-  margin: 0 20px;
+  margin: 20px 0;
 }
 
 .logos__patro img {
   width: 120px;
+}
+
+@media (min-width: 992px) {
+  .logos__patro {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .logos__patro li {
+    margin: 0 20px;
+  }
 }
