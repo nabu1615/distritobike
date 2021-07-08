@@ -1,168 +1,319 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Questrial', sans-serif;
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Questrial", sans-serif;
 }
 
 header {
-    background-color: black;
-    text-align: center;
-    padding: 20px 0;
+  background-color: black;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .logo {
-    width: 25%;
-    display: inline-block;
-    min-width: 300px;
+  width: 25%;
+  display: inline-block;
+  min-width: 300px;
 }
 
 h2 {
-    font-weight: 900;
-    font-size: 3.5rem;
-    font-style: italic;
-}
- 
-h3 {
-    background-color: #ED1C24;
-    display: inline-block;
-    padding: 5px 20px 5px 10px;
-    color: white;
-    font-style: italic;
+  font-weight: 900;
+  font-size: 3.5rem;
+  font-style: italic;
 }
 
 h3 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+  background-color: #ed1c24;
+  display: inline-block;
+  padding: 5px 20px 5px 10px;
+  color: white;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
 h4 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .item__description {
-    padding-right: 60px;
-    line-height: 1.4;
+  padding-right: 60px;
+  line-height: 1.4;
 }
 
 .item p {
-    color: rgb(54, 54, 54);
+  color: rgb(54, 54, 54);
 }
 
 .maps {
-    color: rgb(54, 54, 54);
-    text-decoration: underline;
-
+  color: rgb(54, 54, 54);
+  text-decoration: underline;
 }
 
 .txt-center {
-    text-align: center;
+  text-align: center;
 }
 
 .t-uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-
 .container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 30px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 .item__link {
-    text-decoration: none;
-    margin-top: 40px;
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    min-width: 200px;
-    padding: 0 20px;
-    height: 66px;
-    line-height: 64px;
-    display: inline-block;
-    text-align: center;
-    font-weight: 900;
+  text-decoration: none;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  min-width: 200px;
+  padding: 0 20px;
+  height: 66px;
+  line-height: 64px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 900;
 }
 
 .fa-directions {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-
 .item:first-child {
-    border-bottom: 1px solid #bebebe;
+  border-bottom: 1px solid #bebebe;
 }
 
 .item {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .item ul {
-    margin-top: 30px;
-    padding-left: 20px;
+  margin-top: 30px;
+  padding-left: 20px;
 }
 
 .item li {
-    margin: 10px 0;
-    color: rgb(54, 54, 54);
+  margin: 10px 0;
+  color: rgb(54, 54, 54);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
-    .items {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        column-gap: 60px;
-    }
+  .items {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 60px;
+  }
 
-    .item:first-child {
-        border-bottom: 0;
-    }
+  .item:first-child {
+    border-bottom: 0;
+  }
 }
 
 section {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
-
 footer {
-    background-color: black;
-    padding: 20px;
+  background-color: black;
+  padding: 20px;
 }
 
 footer .logo {
-    width: 200px;
-    min-width: auto;
+  width: 200px;
+  min-width: auto;
 }
 
 .hero {
-    width: 100%;
-    margin: 20px 0;
+  width: 100%;
+  margin: 20px 0;
 }
 
 .footer__container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .social-links {
-    width: 100%;
-    text-align: right;
+  width: 100%;
+  text-align: right;
 }
 
 .social-links li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .social-links a {
-    color: white;
-    padding: 0 10px;
+  color: white;
+  padding: 0 10px;
 }
 
 .social-links i {
-    font-size: 20px;
+  font-size: 20px;
+}
+
+a,
+a:visited {
+  background-color: transparent;
+  color: #0067b8;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  border-bottom: none;
+  outline: 0;
+}
+
+a:focus {
+  border-bottom: none;
+}
+
+a img {
+  border: 0;
+}
+
+** * Tabs Container */ .tabs-container {
+  padding: 2rem;
+}
+
+/**
+ * Tabs Block
+ */
+.tabs-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/**
+ * Tabs
+ */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tabs label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  margin-right: 0.0625rem;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: background-color ease 0.3s;
+}
+
+.tabs label .material-icons {
+  margin-right: 0.3rem;
+}
+
+.tabs .tab {
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding: 1rem 2rem;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.tabs .tab > *:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+.tabs [type="radio"] {
+  display: none;
+}
+
+.tabs [type="radio"]:checked + label {
+  background-color: #fff;
+  color: #ed1c24;
+  border-top: 4px solid #ed1c24;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.tabs [type="radio"]:checked + label + .tab {
+  display: block;
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 1.125rem;
+  }
+
+  .tabs-container {
+    padding: 4rem 4rem;
+  }
+
+  .tabs label {
+    order: 1;
+    width: auto;
+  }
+
+  .tabs .tab {
+    order: 9;
+  }
+
+  .tabs [type="radio"]:checked + label {
+    border-bottom: none;
+  }
+}
+@media (min-width: 992px) {
+  .tabs {
+    width: 1000px;
+  }
+}
+
+.mapa {
+  margin-top: 30px;
+}
+
+.logo__crono {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.crono__cta {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.crono__cta:hover {
+  opacity: 0.8;
+}
+
+.logos__patro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos__patro li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.logos__patro img {
+  width: 120px;
 }
