@@ -328,4 +328,9 @@ a img {
   .logos__patro li {
     margin: 0 20px;
   }
+
+  .logo__crono {
+    width: 55%;
+    margin: 0 auto;
+  }
 }
